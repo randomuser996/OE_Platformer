@@ -7,12 +7,14 @@ using TMPro;  //<- "namespace"
 
 public class ScoreTracker : MonoBehaviour
 {
+    //Skapar en variabel åt TextMeshPro.
     public TextMeshProUGUI scoreText;
     public int totalScore;
 
     private void Update()
     {
-        //totalscore multipliceras varje gång e´n diamant är tagen.
+        //Varje gång en diamant är tagen så läggs det till 1 i totalScore som läggs till i texten i spelet som spelaren ser.
+        //detta är då linkat till ett annat script (Coin.cs).
         scoreText.text = string.Format("Score: {0}", totalScore);
     }
 }

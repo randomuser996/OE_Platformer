@@ -11,7 +11,7 @@ public class Coin : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //Varje gång en diamant är tagen printas det "Kys collected!" om collision tagn är player då.
-        print("Kys collected!");
+        print("Coin collected!");
         if (collision.tag == "Player")
         {
             //Skapar en temporär variabel "controller" och sätt den till resultatet
