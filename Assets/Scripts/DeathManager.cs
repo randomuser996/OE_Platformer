@@ -9,7 +9,7 @@ public class DeathManager : MonoBehaviour
 
     public int deaths = 0;
     public TextMeshProUGUI DeathText;
-
+    
 
     private void Update()
     {

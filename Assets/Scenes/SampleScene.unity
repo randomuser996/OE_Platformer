@@ -374,6 +374,14 @@ Prefab:
       propertyPath: m_LocalPosition.x
       value: 0.82
       objectReference: {fileID: 0}
+    - target: {fileID: 1163739562951608, guid: 29d6f41371d637c4b9a2f1009c17ab32, type: 2}
+      propertyPath: m_TagString
+      value: InvisibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362271564026996, guid: 29d6f41371d637c4b9a2f1009c17ab32, type: 2}
+      propertyPath: m_TagString
+      value: InvisibleWall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29d6f41371d637c4b9a2f1009c17ab32, type: 2}
   m_IsPrefabAsset: 0
@@ -468,15 +476,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4262506375298510, guid: 29d6f41371d637c4b9a2f1009c17ab32, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.75
+      value: -1.79
       objectReference: {fileID: 0}
     - target: {fileID: 4499975030531638, guid: 29d6f41371d637c4b9a2f1009c17ab32, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.65
+      value: 1.54
       objectReference: {fileID: 0}
     - target: {fileID: 4499975030531638, guid: 29d6f41371d637c4b9a2f1009c17ab32, type: 2}
       propertyPath: m_LocalPosition.y
       value: 0.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262506375298510, guid: 29d6f41371d637c4b9a2f1009c17ab32, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362271564026996, guid: 29d6f41371d637c4b9a2f1009c17ab32, type: 2}
+      propertyPath: m_TagString
+      value: InvisibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163739562951608, guid: 29d6f41371d637c4b9a2f1009c17ab32, type: 2}
+      propertyPath: m_TagString
+      value: InvisibleWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29d6f41371d637c4b9a2f1009c17ab32, type: 2}
@@ -817,7 +837,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4218649987189342, guid: 29d6f41371d637c4b9a2f1009c17ab32, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.23
+      value: -0.25
       objectReference: {fileID: 0}
     - target: {fileID: 4218649987189342, guid: 29d6f41371d637c4b9a2f1009c17ab32, type: 2}
       propertyPath: m_LocalPosition.y
@@ -846,6 +866,11 @@ Prefab:
     - target: {fileID: 4218649987189342, guid: 29d6f41371d637c4b9a2f1009c17ab32, type: 2}
       propertyPath: m_RootOrder
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 212512127755544104, guid: 29d6f41371d637c4b9a2f1009c17ab32,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29d6f41371d637c4b9a2f1009c17ab32, type: 2}
@@ -919,7 +944,7 @@ GameObject:
   - component: {fileID: 891881366}
   - component: {fileID: 891881368}
   - component: {fileID: 891881367}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: DeathText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1379,7 +1404,7 @@ GameObject:
   - component: {fileID: 1203324841}
   - component: {fileID: 1203324843}
   - component: {fileID: 1203324842}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1631,6 +1656,10 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1431414739512918, guid: a61e51ea1083d7c48a67e8a0d7d38e25, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a61e51ea1083d7c48a67e8a0d7d38e25, type: 2}
   m_IsPrefabAsset: 0
@@ -1719,6 +1748,16 @@ Prefab:
     - target: {fileID: 4180503001808348, guid: 76430694f6c069a4bb2a3aba06006846, type: 2}
       propertyPath: m_LocalPosition.y
       value: 0.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 114044132902593146, guid: 76430694f6c069a4bb2a3aba06006846,
+        type: 2}
+      propertyPath: moveSpeed
+      value: 6.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 212717704089390640, guid: 76430694f6c069a4bb2a3aba06006846,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76430694f6c069a4bb2a3aba06006846, type: 2}
@@ -2056,7 +2095,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1605056805}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.111931, y: -0.59435177, z: 0.04296875}
+  m_LocalPosition: {x: 1.111931, y: -8.1, z: 0.04296875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2108,7 +2147,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1722398233}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.8726153, y: 6.58, z: -0.21484375}
+  m_LocalPosition: {x: -16.82, y: -8.81, z: -0.21484375}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3658,7 +3697,7 @@ GameObject:
   - component: {fileID: 1911919885}
   - component: {fileID: 1911919884}
   - component: {fileID: 1911919883}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Canvas
   m_TagString: InvisibleWall
   m_Icon: {fileID: 0}
