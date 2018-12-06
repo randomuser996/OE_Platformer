@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Tar rigidbodyn av objektet den är på för att den är på rigidbody2d som är kallad rbody. Och att
+//detta scriptet måste ha den för att det ska fungera.
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     [Range(0, 20f)]
     public float moveSpeed;
     public float jumpHeight;
+
+    public bool doubleJump = false;
 
     //Länkar rigidbody till rbody, samma sak med groundcheck i sammanhang med ett annat script.
     //Private gör också så att man inte kan komma åt det i något annat script, bara i detta.
@@ -18,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
-        //Rbody referar nu till 
+        //Rbody referar nu till objektets rigidbody.
         rbody = GetComponent<Rigidbody2D>();
 	}
 	

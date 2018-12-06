@@ -9,7 +9,6 @@ public class EnemyHorizontalMovement : MonoBehaviour
     public bool isLeft = true;
 
     //Hämtar RigidBody och länkar den till ''rbody''. Privat = bara för det här skriptet.
-    private DeathManager dm;
     private Rigidbody2D rbody;
 
     // Use this for initialization

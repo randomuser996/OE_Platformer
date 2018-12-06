@@ -13,10 +13,10 @@ public class VictoryRoyale : MonoBehaviour
     //för att nästa kod ska gå av. Vilket är då printen och att scenen laddar.
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Player")
+        if (collision.tag == "Player")
         {
             print("#1 VICTORY ROYALE");
-            SceneManager.LoadScene(levelToLoad);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
